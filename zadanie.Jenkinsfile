@@ -1,8 +1,6 @@
 pipeline {
     agent any
 
-    tools { nodejs 'Node20.5.0' }
-
     stages {
         stage('Dependencies') {
             steps {
