@@ -3,6 +3,10 @@ pipeline {
 
     tools { nodejs 'Node18' }
 
+    options {
+        ansiColor('xterm')
+    }
+
     stages {
         stage('Dependencies') {
             steps {
